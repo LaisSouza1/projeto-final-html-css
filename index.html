@@ -6,31 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <title>Projeto Final</title>
 </head>
 
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="portfolio">Portfólio</a></li>
-            <li><a href="">Contato</a></li>
-        </ul>
-    </div>
-    <div id="perfil">
+    <header class="header-menu">
+        <nav id="menu">
+            <ul class="lista-menu">
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </div>
-    <div id="formacao">
 
-    </div>
-    <div id="portfolio">
+    <section class="perfil">
+        <div class="subcontainer-principal container">
+            <div>
+                <img class="foto" src="./assets/perfil.jpg" alt="foto perfil de Laís Souza">
+            </div>
+            <div>
+                <h1 class="nome-completo">Laís Souza</h1>
+                <h3 class="profissao">Fisioterapeuta e Desenvolvedora Front-end em Formação</h3>
+            </div>
 
-    </div>
-    <div id="contato">
+            <div class="resumo">
+                <p>
+                    Graduada em Fisioterapia e com mais de cinco anos de atuação na área, estou em processo de transição
+                    de carreira para a área de Tecnologia da Informação. Tenho interesse em Desenvolvimento Web e
+                    Back-end.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <div class="container article-lista">
+            <div>
+                <h2 class="topico-principal">Formação</h2>
+            </div>
+
+            <div class="lista-item">
+                <ul>
+                    <li>
+                        <p class="lista-titulo">Ciclo Formativo Básico</p>
+                        <a href="https://www.pretalab.com/formacao" target="_blank" rel="external"
+                            class="lista-local">Pretalab</a>
+                        <p class="lista-descricao">
+                            O ciclo formativo tem o objetivo de iniciar mulheres negras na área da tecnologia, tendo
+                            como base o ensino de HTML5, CSS3 e Lógica de Programação.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Python 3 - Mundo 1 [40 horas]</p>
+                        <p class="lista-local">Curso em Vídeo</p>
+                        <p class="lista-descricao">
+                            Primeiro mundo do curso introduz a linguagem, seus conceitos e ensina alguns recursos
+                            básicos.
+                        </p>
+                    </li>
+                    <li>
+                        <p class="lista-titulo">Git e Github para iniciantes</p>
+                        <p class="lista-local">Udemy</p>
+                        <p class="lista-descricao">
+                            O curso aborda a utilização do Git em nossos projetos e como fazer a ligação do
+                            mesmo com o Github, a mais famosa rede social para código opensource.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+
+        <div class="container article-lista">
+            <div>
+                <h2 class="topico-principal">Meus Projetos</h2>
+            </div>
+            <div class="lista-item">
+                <ul>
+                    <li>
+                        <p class="lista-titulo">Calculadora</p>
+                        <a href="https://laissouza-pretalabdisney.netlify.app/" target="_blank" rel="external"
+                            class="lista-local">Pretalab</a>
+                        <p class="lista-descricao">
+                            Descrever projeto
+                        </p>
+
+                        <p class="lista-titulo">Árvore de Links</p>
+                        <a href="https://links-laissouza.netlify.app/" target="_blank" rel="external"
+                            class="lista-local">Pretalab</a>
+                        <p class="lista-descricao">
+                            Descrever projeto
+                        </p>
+
+                        <p class="lista-titulo">Currículo</p>
+                        <a href="https://laissouza-pretalabdisney.netlify.app/" target="_blank" rel="external"
+                            class="lista-local">Pretalab</a>
+                        <p class="lista-descricao">
+                            Descrever projeto
+                        </p>
+
+                    </li>
+                </ul>
+
+            </div>
+
+
+    </section>
+    <footer id="contato" class="rodape">
+        <div class="container">
+            <ul class="lista-rodape">
+                <li><i class="fas fa-envelope-square estilo-icone"></i> <a href="mailto:lais_souza01@hotmail.com"
+                        target="_blank" rel="external" class="links">lais_souza01@hotmail.com</a></li>
+                <li><i class="fab fa-linkedin estilo-icone"></i> <a
+                        href="https://www.linkedin.com/in/la%C3%ADs-souza-32b509267/" target="_blank" rel="external"
+                        class="links">Laís Souza</a></li>
+                <li><i class="fab fa-github-square estilo-icone"></i> <a href="https://github.com/LaisSouza1"
+                        target="_blank" rel="external" class="links">LaisSouza1</a></li>
+            </ul>
+        </div>
+    </footer>
 
     </div>
 </body>
