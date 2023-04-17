@@ -6,11 +6,12 @@
 
 Link do projeto no ar:
 
-- [link do protótipo do projeto final](https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?node-id=0%3A1)
+- [link do projeto final](https://laissouza-projeto-final.netlify.app/)
 
 O projeto final é um portfólio feito em HTML, CSS e hospedado no netlify.
 
 Ferramentas usadas:
+
 ✓		Visual Studio Code como ambiente de desenvolvimento.
 
 ✓		Github como ferramenta de versionamento.
@@ -20,7 +21,7 @@ Ferramentas usadas:
 <br>
 Link do Protótipo:
 
-- [link do protótipo do projeto final](https://laissouza-projeto-final.netlify.app/)
+- [link do protótipo do projeto final](https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?node-id=0%3A1)
 
 ---
 <br>
