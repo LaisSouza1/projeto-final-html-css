@@ -43,6 +43,12 @@
 
 }
 
+#formacao {
+    background-color: azure;
+    height: 600px;
+    margin-top: 100px;
+}
+
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -115,10 +121,12 @@
 .topico-principal {
     font-size: 36px;
     color: #5e60ce;
+    margin-top: 30px;
 }
 
 .lista-item {
     padding: 32px;
+    margin-bottom: 80px;
 }
 
 .lista-item ul li  a:link{
@@ -157,9 +165,10 @@ li {
 
 .rodape {
     background-color: aquamarine;
-    height: 200px;
+    height: 250px;
     display: flex;
     align-items: center;
+      
 }
 
 .lista-rodape li {
@@ -169,16 +178,30 @@ li {
     display: flex;
     align-items: center;
     color: #5e60ce;
-    
+       
 }
 
+.contact {
+    display: flex;
+    margin-top: 1.34em;
+    margin-bottom: 1.34em;
+    justify-content: center;
+    text-align: center;
+    color: #5e60ce;
+    
+}
 .estilo-icone {
     font-size: 32px;
     margin-right: 10px;
-   
+        
 }
 
 .links {
     text-decoration: none;
     color: #5e60ce;
+    
 }
+
+a:hover {
+    color: #04052e;
+  }
